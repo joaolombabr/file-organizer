@@ -1,0 +1,26 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "Automatically organize files into categorized folders based on their type",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "file-organizer": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test tests/organizer.test.js"
+  },
+  "keywords": [
+    "file-organizer",
+    "automation",
+    "cli",
+    "files",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
